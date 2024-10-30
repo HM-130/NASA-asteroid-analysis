@@ -16,6 +16,7 @@ Conducted a comprehensive analysis of real-world asteroid orbital data to explor
 - **Asteroid Characteristics**: Analyzed asteroid properties based on brightness, grouping data accordingly.
 
 ## Technologies Used
+- **IDE**: VSCode
 - **Languages and Libraries**: Python (`pandas`, `matplotlib`, `numpy`, `scikit-learn`)
 - **Tools**: Jupyter Notebooks for data handling and visualization
 
