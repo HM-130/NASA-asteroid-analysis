@@ -1,4 +1,4 @@
-# Asteroid Data Analysis Project  
+# Asteroid Data Analysis Project
 *(Completed at age 14)*
 
 ## Overview
@@ -21,4 +21,3 @@ Conducted a comprehensive analysis of real-world asteroid orbital data to explor
 - **Tools**: Jupyter Notebooks for data handling and visualization
 
 This project demonstrates a strong foundational understanding of data analysis, statistical modeling, and visualization techniques in Python.
-
