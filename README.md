@@ -20,4 +20,9 @@ Conducted a comprehensive analysis of real-world asteroid orbital data to explor
 - **Languages and Libraries**: Python (`pandas`, `matplotlib`, `numpy`, `scikit-learn`)
 - **Tools**: Jupyter Notebooks for data handling and visualization
 
+## Project Files
+- [Analysis Notebook](analysis.ipynb): The main analysis performed on asteroid data.
+- [Sample Data](sample_data.csv): A sample of the asteroid data used in the analysis.
+
+
 This project demonstrates a strong foundational understanding of data analysis, statistical modeling, and visualization techniques in Python.
