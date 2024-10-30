@@ -4,25 +4,53 @@
 ## Overview
 Conducted a comprehensive analysis of real-world asteroid orbital data to explore patterns and relationships based on Kepler's Laws of Planetary Motion. This project involved data cleaning, processing, and analysis using Python and Jupyter Notebooks.
 
-## Project Details
-- **Data Cleaning and Processing**: Used Python’s `pandas` library to clean and process raw asteroid data.
-- **Statistical Analysis**: Examined correlations in orbital data, including calculating correlation coefficients and testing Kepler's third law.
-- **Polynomial Regression Model**: Built a regression model to study the relationship between orbital eccentricity and period.
-- **Visualizations**: Created visualizations of orbital paths and asteroid characteristics using `matplotlib`, showcasing data trends and analysis results.
+## Project Motivation
+I chose this as my first project because it allowed me to combine my interests in physics and computer science, solidifying my understanding of data analysis, astrophysics, and mathematics. 
 
-## Key Findings
-- **Weak Correlation**: Discovered a weak correlation between eccentricity and orbital period.
-- **Verification of Kepler's Third Law**: Verified patterns consistent with Kepler's third law through data analysis.
-- **Asteroid Characteristics**: Analyzed asteroid properties based on brightness, grouping data accordingly.
+Kepler's laws state:
+1. Planets move in elliptical orbits with the Sun as a focus.
+2. A planet speeds up and slows down depending on its distance from the Sun but always covers equal areas in equal times.
+3. A planet's orbital period is proportional to the size of its orbit (its semi-major axis).
 
-## Technologies Used
-- **IDE**: VSCode
-- **Languages and Libraries**: Python (`pandas`, `matplotlib`, `numpy`, `scikit-learn`)
-- **Tools**: Jupyter Notebooks for data handling and visualization
+I love learning about the universe, making this project an enjoyable experience. I particularly enjoyed the challenge of identifying and visualizing relationships in orbital data inspired by real-world physics.
+
+## Data Gathering
+I found the data for this project on the Jet Propulsion Lab’s small body database query website and downloaded it as a CSV file. I opened it in VSCode and analyzed it in a Jupyter Notebook.
+
+## Data Cleaning
+- Renamed columns for readability.
+- Removed columns of mostly NaN values.
+- Ensured all columns had the correct data type.
+- Replaced remaining NaNs with the mean/median/mode or 0, as appropriate.
+
+## Correlations with Orbital Period
+- Used the matplotlib library to produce scatter plots of the following variables against Orbital Period:
+  - Eccentricity
+  - Semimajor Axis
+  - Inclination
+  - Absolute Magnitude
+- Used numpy and scikit-learn libraries for polynomial regression models.
+
+### Polynomial Regression Models
+- **Correlation Coefficient (Eccentricity vs. Orbital Period)**: 0.009385 (little to no linear relationship).
+- **Kepler's 3rd Law Verification**: 0.986 (very strong correlation).
+- **Additional Correlations**: Weak correlations observed for other variables.
+
+## Brightness Grouping
+- Used boolean masks to group asteroids based on Absolute Magnitude (brightness).
+- Analyzed mean values for each group and produced bar charts comparing quantities.
+
+## Plotting 2D Orbits
+- Plotted the orbits of hypothetical asteroids with varying eccentricities.
+- Plotted the 2D orbits of three asteroids based on their mean semimajor axis and eccentricity.
+
+## Conclusions and Key Components
+- Eccentricity has a weak correlation with orbital period, which is interesting because Kepler does not highlight this.
+- Non-linear regression models can be more effective than linear ones in analyzing real-world data.
+- Visualized the relationship between asteroid brightness and orbit size.
+
+Completing this project enhanced my understanding of planetary motion and orbital mechanics. I learned that exploring non-linear relationships can provide valuable insights, and I strengthened my programming and data visualization skills.
 
 ## Project Files
-- [Analysis Notebook](analysis.ipynb): The main analysis performed on asteroid data.
+- [Analysis Notebook](analysis.ipynb): Main analysis performed on asteroid data.
 - [Sample Data](sample_data.csv): A sample of the asteroid data used in the analysis.
-
-
-This project demonstrates a strong foundational understanding of data analysis, statistical modeling, and visualization techniques in Python.
