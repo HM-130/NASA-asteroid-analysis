@@ -1,5 +1,5 @@
 # Asteroid Data Analysis Project
-*(Completed at age 14)*
+*(Completed at age 14 - October 2024)*
 
 ## Overview
 Conducted a comprehensive analysis of real-world asteroid orbital data to explore patterns and relationships based on Kepler's Laws of Planetary Motion. This project involved data cleaning, processing, and analysis using Python and Jupyter Notebooks.
