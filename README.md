@@ -5,17 +5,17 @@
 Conducted a comprehensive analysis of real-world asteroid orbital data to explore patterns and relationships based on Kepler's Laws of Planetary Motion. This project involved data cleaning, processing, and analysis using Python and Jupyter Notebooks.
 
 ## Project Motivation
-I chose this as my first project because it allowed me to combine my interests in physics and computer science, solidifying my understanding of data analysis, astrophysics, and mathematics. 
+I chose this as my first data science project because it allowed me to combine my interests in physics and computer science, solidifying my understanding of data analysis, astrophysics, and mathematics. 
 
 Kepler's laws state:
-1. Planets move in elliptical orbits with the Sun as a focus.
+1. Planets move in elliptical orbits with the sun as a focus.
 2. A planet speeds up and slows down depending on its distance from the Sun but always covers equal areas in equal times.
 3. A planet's orbital period is proportional to the size of its orbit (its semi-major axis).
 
-I love learning about the universe, making this project an enjoyable experience. I particularly enjoyed the challenge of identifying and visualizing relationships in orbital data inspired by real-world physics.
+I love learning about the universe, making this project an enjoyable experience. I particularly enjoyed the challenge of identifying and visualising relationships in orbital data inspired by real-world physics.
 
 ## Data Gathering
-I found the data for this project on the Jet Propulsion Lab’s small body database query website and downloaded it as a CSV file. I opened it in VSCode and analyzed it in a Jupyter Notebook.
+I found the data for this project on the NASA Jet Propulsion Lab’s small body database query website and downloaded it as a CSV file. I opened it in VSCode and analysed it in a Jupyter Notebook.
 
 ## Data Cleaning
 - Renamed columns for readability.
@@ -45,11 +45,11 @@ I found the data for this project on the Jet Propulsion Lab’s small body datab
 - Plotted the 2D orbits of three asteroids based on their mean semimajor axis and eccentricity.
 
 ## Conclusions and Key Components
-- Eccentricity has a weak correlation with orbital period, which is interesting because Kepler does not highlight this.
-- Non-linear regression models can be more effective than linear ones in analyzing real-world data.
-- Visualized the relationship between asteroid brightness and orbit size.
+- Eccentricity has a weak correlation with orbital period, which is interesting because Kepler does not highlight this in his papers which can be found here: https://www.jstor.org/stable/4025081. Obviously this could just be coincidence in the data, but my model found an intriguing correlation nonetheless. 
+- Non-linear regression models can be more effective than linear ones in analysing real-world data.
+- Visualised the relationship between asteroid brightness and orbit size.
 
-Completing this project enhanced my understanding of planetary motion and orbital mechanics. I learned that exploring non-linear relationships can provide valuable insights, and I strengthened my programming and data visualization skills.
+Completing this project enhanced my understanding of planetary motion and orbital mechanics. I learned that exploring non-linear relationships can provide valuable insights, and I strengthened my programming and data visualisation skills.
 
 ## Project Files
 - [Analysis Notebook](analysis.ipynb): Main analysis performed on asteroid data.
